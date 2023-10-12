@@ -15,3 +15,7 @@ Connection options:
   -U, --username=USERNAME  database user name (default: "root")
   -w, --no-password        never prompt for password
   -W, --password           force password prompt (should happen automatically)
+
+
+select * from pg_catalog.pg_tables; (Use this to view all tables)
+SELECT * FROM TABLENAME; (Use this to access the content of a table)
